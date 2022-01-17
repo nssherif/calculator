@@ -1,0 +1,16 @@
+package calculator;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class DigitListener extends ActionListener {
+	
+	Model myModel = new Model();
+	View myView = new View();
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

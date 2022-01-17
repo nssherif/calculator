@@ -1,0 +1,49 @@
+/**
+ * 
+ */
+package calculator;
+
+import javax.swing.*;
+import java.awt.*;
+
+/**
+ * @author negibsherif
+ *
+ */
+public class View extends JFrame {
+
+	/**
+	 * @param args
+	 */
+	private View() {
+		setLayout(new FlowLayout());
+		int i = 0;
+		while (i < 10) {
+			JButton digitButton = new JButton (Integer.toString(i));
+			add (digitButton);
+		}
+		JButton addButton = new JButton ("+");
+		add (addButton);
+		JButton clearButton = new JButton ("Clear");
+		add (clearButton);
+		JButton equalsButton = new JButton ("=");
+		add (equalsButton);
+		
+		setSize(300,300);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}
+	
+	
+	private final Model model = new Model ();
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SwingUtilities.invokeLater(new Runnable() {
+			@Override public void run () {
+				new View();
+			}
+		});
+	}
+}
