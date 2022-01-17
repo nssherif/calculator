@@ -24,17 +24,15 @@ public class View extends javax.swing.JFrame {
 		for (int i=0 ; i<10 ; ++i)
 		{
 			JButton digitButton = new JButton(Integer.toString(i));
-			digitButton.addActionListener(new DigitListener(this,model,i));
+			digitButton.addActionListener(new DigitListener(this , model , i));
 			add (digitButton);
-//			ActionListener listener = new DigitListener( this,model) ;
-//			digitButton.addActionListener(listener);
 		}
-		JButton clearButton = new JButton("Clear");
-		add (clearButton);
-		JButton plusButton = new JButton("+");
-		add (plusButton);
-		JButton equalsButton = new JButton("=");
-		add (equalsButton);
+		
+		for (Op op : Op.values()) {
+			JButton opButton = new JButton (op.toString());
+			add (opButton);
+			opButton.addActionListener(new OperationListener(this, model, op));
+		}
 		
 		add(this.valueLabel);
 		

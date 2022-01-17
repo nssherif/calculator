@@ -38,11 +38,11 @@ You will also need the latest JAVA JDK
 It's important that you first install Java before Eclipse.  
 
 ```
-Step 1: Install the latest Java JDK from [here.] (https://www.oracle.com/java/technologies/downloads/)
+Step 1: Install the latest Java JDK from here. (https://www.oracle.com/java/technologies/downloads/)
 ```
 
 ```
-Step 2: Install Eclipse from [here.]( https://www.eclipse.org/downloads/)
+Step 2: Install Eclipse from here.( https://www.eclipse.org/downloads/)
 ```
 
 ## 🎈 Usage <a name="usage"></a>
@@ -58,7 +58,7 @@ Once Eclipse and Java are installed. Open the project in Eclipse and Run the pro
 ## ✍️ Authors <a name = "authors"></a>
 
 - Theodore Norvell - Idea, writing most of the classes and providing instructions to finish the project
-- [@nssherif](https://github.com/kylelobo) - Implemented the View Class based on Theodore Norvell's instructions
+- [@nssherif](https://github.com/nssherif) - Implemented the View Class based on Theodore Norvell's instructions
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
