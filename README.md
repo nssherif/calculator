@@ -54,7 +54,10 @@ Step 2: Install Eclipse from [here](https://www.eclipse.org/downloads)
 
 Once Eclipse and Java are installed. Open the project in your Eclipse workspace and run the View.java file. You should see the calculator pop up.  
 
-<img width=200px height=200px src="docs/assets/calc-img.png" alt="Calculator image"></a>
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="docs/assets/calc-img.png" alt="Calculator image"></a>
+</p>
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
