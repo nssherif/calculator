@@ -1,15 +1,20 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="docs/assets/java-logo.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">ECE 5010 Software Desgin (Java) - Lab 1 (Calculator)</h3>
+<h3 align="center">Calculator App</h3>
 
 ---
 
-<p align="center"> This is the first lab of the course ECE 5010 Software design.
+<p align="center"> This is the first lab I did in term 5 of my Computer Engineering bachelors degree.
     <br> This lab uses basic object oriented programming concepts to make a simple calculator. 
+    <br> This lab was for the course ECE 5010 Software Design. 
 </p>
+
+## :thinking: Why Use it? 
+
+Because it is possible to make a better calculator than Apple. :stuck_out_tongue:
 
 ## 📝 Table of Contents
 
@@ -22,11 +27,11 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This is the first lab of the course ECE 5010 Software Design. This lab was done in the first week of class in my 5th term as a computer engineering student. This lab uses basic object oriented programming concepts in Java to make a simple calculator. The IDE that was used was Eclipse and I suggest that you use Eclipse as well to pull this project down. 
+This is the first lab of the course ECE 5010 Software Design. This lab was done in the first week of class in my 5th term as a computer engineering student at Memorial University of Newfoundland. This lab uses basic object oriented programming concepts in Java to make a simple calculator. The IDE that was used was Eclipse and I suggest that you use Eclipse as well to pull this project down. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -38,16 +43,18 @@ You will also need the latest JAVA JDK
 It's important that you first install Java before Eclipse.  
 
 ```
-Step 1: Install the latest Java JDK from here. (https://www.oracle.com/java/technologies/downloads/)
+Step 1: Install the latest Java JDK from [here](https://www.oracle.com/java/technologies/downloads)
 ```
 
 ```
-Step 2: Install Eclipse from here.( https://www.eclipse.org/downloads/)
+Step 2: Install Eclipse from [here](https://www.eclipse.org/downloads)
 ```
 
 ## 🎈 Usage <a name="usage"></a>
 
-Once Eclipse and Java are installed. Open the project in Eclipse and Run the project. You should see the calculator pop up. 
+Once Eclipse and Java are installed. Open the project in your Eclipse workspace and run the View.java file. You should see the calculator pop up.  
+
+<img width=200px height=200px src="docs/assets/calc-img.png" alt="Calculator image"></a>
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
