@@ -56,7 +56,7 @@ Once Eclipse and Java are installed. Open the project in your Eclipse workspace 
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="docs/assets/calc-img.png" alt="Calculator image"></a>
+ <img width=200px height=200px src="docs/assets/calculator-img.png" alt="Calculator image"></a>
 </p>
 
 
